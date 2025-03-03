@@ -4,11 +4,6 @@
 
 @media screen and (min-width:768px) {
 
-    .clearfix {
-        font-family: Montserrat, 'Helvetica Neue', sans-serif;
-    }
-
-
     #topbar {
         justify-content: left;
     }
@@ -22,8 +17,8 @@
 
     }
 
-    #logo {
-        font-size: 4em;
+    .recipe-title{
+        font-size: 1.5em;
     }
 
     .recipe-card {
@@ -84,6 +79,33 @@
     }
 
     .recipe-info{
-        width: 33%;
+        width: 40%;
+    }
+}
+
+/* Bonus */
+
+@media screen and (max-width:576px){
+    #topbar {
+        justify-content: center;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    .recipe-card {
+        display: grid;
+    }
+
+    div.quick-notes ul li  {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .recipe-video img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
