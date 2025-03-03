@@ -1,8 +1,14 @@
 /* Soluzione qui */
 
-/* Modalirtà Tablet */
+/* Modalità Tablet */
 
 @media screen and (min-width:768px){
+
+    .clearfix{
+        font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    }
+
+    
     #topbar{
       justify-content: left;
     }
@@ -13,6 +19,7 @@
 
     .recipe-origin{
         display: inline-block;
+
     }
 
     #logo{
@@ -46,5 +53,17 @@
         float: left;
         position: relative;
         right: 11px;
+    }
+}
+
+/* Modalità Desktop  */
+
+@media screen and (min-width:992px){
+    .container{
+        width: 100%;
+    }
+
+    .recipe-name{
+        font-size: 35px;
     }
 }
