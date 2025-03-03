@@ -18,4 +18,21 @@
     #logo{
         font-size: 4em;
     }
+
+    .recipe-card{
+        display: grid;
+    }
+
+.recipe-info{
+    margin-top: 80px;
+}
+
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    img{
+        width: 100%;
+    }
 }
